@@ -1,0 +1,17 @@
+export type INPUT_TYPES =
+  | 'text'
+  | 'password'
+  | 'checkbox'
+  | 'radio'
+  | 'number'
+  | 'email'
+  | 'date'
+  | 'file'
+  | 'url'
+  | 'tel'
+  | 'color'
+  | 'range'
+  | 'search'
+  | 'time'
+  | 'datetime-local'
+  | 'select'; // external

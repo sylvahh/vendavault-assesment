@@ -1,0 +1,20 @@
+.input-container {
+  @apply w-full flex flex-col;
+}
+
+.input-container input,
+.input-container select {
+  @apply p-3 border rounded-lg border-primary border-opacity-50 outline-primary;
+}
+
+
+.input-container label {
+  @apply text-secondary text-xl font-rubik;
+}
+
+.terms {
+  @apply flex items-center gap-2;
+}
+.terms label {
+  @apply order-last text-sm text-primary-light;
+}
